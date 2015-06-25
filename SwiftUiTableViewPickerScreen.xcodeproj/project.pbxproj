@@ -14,6 +14,7 @@
 		1671EC601B3B546E00D9722A /* SwiftUiTableViewPickerScreenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1671EC5F1B3B546E00D9722A /* SwiftUiTableViewPickerScreenTests.swift */; };
 		1671EC6C1B3BB5F900D9722A /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1671EC6B1B3BB5F900D9722A /* TableViewController.swift */; };
 		1671EC6E1B3BB60F00D9722A /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1671EC6D1B3BB60F00D9722A /* CategoryTableViewController.swift */; };
+		1671EC711B3BCB9700D9722A /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 1671EC701B3BCB9700D9722A /* screenshot.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		1671EC5F1B3B546E00D9722A /* SwiftUiTableViewPickerScreenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiTableViewPickerScreenTests.swift; sourceTree = "<group>"; };
 		1671EC6B1B3BB5F900D9722A /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		1671EC6D1B3BB60F00D9722A /* CategoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
+		1671EC701B3BCB9700D9722A /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		1671EC461B3B546D00D9722A /* SwiftUiTableViewPickerScreen */ = {
 			isa = PBXGroup;
 			children = (
+				1671EC6F1B3BCB8300D9722A /* Images */,
 				1671EC491B3B546D00D9722A /* AppDelegate.swift */,
 				1671EC4D1B3B546D00D9722A /* Main.storyboard */,
 				1671EC501B3B546D00D9722A /* Images.xcassets */,
@@ -113,6 +116,14 @@
 				1671EC5E1B3B546D00D9722A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1671EC6F1B3BCB8300D9722A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				1671EC701B3BCB9700D9722A /* screenshot.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +210,7 @@
 				1671EC4F1B3B546D00D9722A /* Main.storyboard in Resources */,
 				1671EC541B3B546D00D9722A /* LaunchScreen.xib in Resources */,
 				1671EC511B3B546D00D9722A /* Images.xcassets in Resources */,
+				1671EC711B3BCB9700D9722A /* screenshot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
