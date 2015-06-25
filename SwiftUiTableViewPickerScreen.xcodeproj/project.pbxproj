@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		1671EC4A1B3B546D00D9722A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1671EC491B3B546D00D9722A /* AppDelegate.swift */; };
-		1671EC4C1B3B546D00D9722A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1671EC4B1B3B546D00D9722A /* ViewController.swift */; };
 		1671EC4F1B3B546D00D9722A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1671EC4D1B3B546D00D9722A /* Main.storyboard */; };
 		1671EC511B3B546D00D9722A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1671EC501B3B546D00D9722A /* Images.xcassets */; };
 		1671EC541B3B546D00D9722A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1671EC521B3B546D00D9722A /* LaunchScreen.xib */; };
 		1671EC601B3B546E00D9722A /* SwiftUiTableViewPickerScreenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1671EC5F1B3B546E00D9722A /* SwiftUiTableViewPickerScreenTests.swift */; };
+		1671EC6C1B3BB5F900D9722A /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1671EC6B1B3BB5F900D9722A /* TableViewController.swift */; };
+		1671EC6E1B3BB60F00D9722A /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1671EC6D1B3BB60F00D9722A /* CategoryTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +30,14 @@
 		1671EC441B3B546D00D9722A /* SwiftUiTableViewPickerScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUiTableViewPickerScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1671EC481B3B546D00D9722A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1671EC491B3B546D00D9722A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1671EC4B1B3B546D00D9722A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1671EC4E1B3B546D00D9722A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1671EC501B3B546D00D9722A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1671EC531B3B546D00D9722A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1671EC591B3B546D00D9722A /* SwiftUiTableViewPickerScreenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUiTableViewPickerScreenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1671EC5E1B3B546D00D9722A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1671EC5F1B3B546E00D9722A /* SwiftUiTableViewPickerScreenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiTableViewPickerScreenTests.swift; sourceTree = "<group>"; };
+		1671EC6B1B3BB5F900D9722A /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		1671EC6D1B3BB60F00D9722A /* CategoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +80,12 @@
 			isa = PBXGroup;
 			children = (
 				1671EC491B3B546D00D9722A /* AppDelegate.swift */,
-				1671EC4B1B3B546D00D9722A /* ViewController.swift */,
 				1671EC4D1B3B546D00D9722A /* Main.storyboard */,
 				1671EC501B3B546D00D9722A /* Images.xcassets */,
 				1671EC521B3B546D00D9722A /* LaunchScreen.xib */,
 				1671EC471B3B546D00D9722A /* Supporting Files */,
+				1671EC6B1B3BB5F900D9722A /* TableViewController.swift */,
+				1671EC6D1B3BB60F00D9722A /* CategoryTableViewController.swift */,
 			);
 			path = SwiftUiTableViewPickerScreen;
 			sourceTree = "<group>";
@@ -213,8 +216,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1671EC4C1B3B546D00D9722A /* ViewController.swift in Sources */,
 				1671EC4A1B3B546D00D9722A /* AppDelegate.swift in Sources */,
+				1671EC6C1B3BB5F900D9722A /* TableViewController.swift in Sources */,
+				1671EC6E1B3BB60F00D9722A /* CategoryTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +416,7 @@
 				1671EC651B3B546E00D9722A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1671EC661B3B546E00D9722A /* Build configuration list for PBXNativeTarget "SwiftUiTableViewPickerScreenTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +425,7 @@
 				1671EC681B3B546E00D9722A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
